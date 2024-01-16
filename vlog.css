@@ -1,0 +1,419 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 135px;
+    text-align: 0 auto;
+}
+.nav-header{
+    display: flex;
+    gap: 5px;
+}
+.nav-img{
+    
+    display: flex;
+    width: 40px;
+}
+.nav-title{
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #131318;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+   padding-left:20px ;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    color: #424247;
+
+
+}
+.nav-a{
+    color: #FF5400;
+}
+.nav-span{
+    color: #FF5400;
+}
+/* main section1 style */
+section{
+    margin: 0 auto;
+    padding: 20px 140px;
+    
+   
+    
+}
+.section-title{
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    text-align: center;
+    
+  
+}
+.section-con{
+    font-size: 2.8rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    padding-top: 10%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+}
+.section-title P{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFF;
+}
+.section-title input{
+    padding: 10px 20px;
+    border:0 ;
+    border-radius: 5px;
+    
+
+
+
+}
+.section-two{
+    display: flex;
+    gap: 100px;
+}
+.section-two-title{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.pro{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-primary{
+    background-color:  #FF5400;
+    color: #FFF;
+    padding: 17px 35px;
+    border-radius:8px ;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 30px;
+
+
+}
+.hotel{
+    width: 1440px;
+    height: 500px;
+    flex-basis:50% ;
+    display: flex;
+   
+
+}
+.hotel-1{
+    width: 570px;
+    height: 280px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+    flex-basis:50% ;
+
+}
+.hotel-2{
+    width: 570px;
+    height: 280px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background-color: rgba(41, 206, 246, 0.05);
+    flex-basis:50% ;
+}
+   
+.box-pro{
+    background: url(./Images/Group\ 39.png);
+    width: 1170px;
+    height: 500px;
+    gap:50px;
+    display: flex;
+    
+}
+    
+.box-title-one{
+    background:  rgba(255, 255, 255, 0.80);
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-radius: 16px;
+    padding: 50px;
+    
+}
+.box-title-two{
+    display: flex;
+    gap: 50px;
+}
+.Deals{
+    text-align: center;
+}
+.Deals h2{
+    text-align: center;
+    color: #131318;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.Deals p{
+    justify-content: center;
+    color: #424247;
+    font-weight: 400;
+    font-size: 1re;
+}
+    
+
+
+
+.box-title-two-two{
+    display: flex;
+    gap: 50px;
+   
+
+}
+.box-pro-two{
+    background: url(./Images/Group\ 40.png);
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    gap: 50px;
+}
+.box-title-two-pro{
+    background:  rgba(255, 255, 255, 0.80);
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 16px;
+    padding: 50px;
+}
+   
+
+.box-title-one-one{
+    background:  rgba(255, 255, 255, 0.80);
+    width: 580px;
+    height: 390px;
+    margin-right: 50%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 16px;
+    padding: 50px;
+}
+
+
+
+.sagor{
+    color:#FF5400;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.btn-primary-sagor{
+    background-color:  #FF5400;
+    color: #FFF;
+    padding: 17px 35px;
+    border-radius:8px ;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.pera{
+   
+    width: 600px;
+    height: 450px;
+    padding: 20px;
+}
+
+
+
+.pera-chill{
+    display: flex;
+    gap: 60px;
+}
+.sound-box{
+    display: flex;
+    gap: 50px;
+    gap: 50px;
+}
+.div-1{
+    border: 1px solid #FF5400;
+    width: 475px;
+    height: 420px;
+    border-radius: 16px;
+    
+
+}
+.div-1-title{
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.4rem;
+    padding: 20px 30px;
+}
+.div-1-p{
+    color: #5A5A5D;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 30px ;
+
+}
+.div-1 input{
+    width: 200px;
+    padding:10px 30px;
+    margin-left: 30px;
+    background:rgba(19, 19, 24, 0.05);
+    border-radius: 5px;
+    border: 0;
+
+}    
+
+    
+
+
+.Subscribe{
+    color: #FFF;
+    background-color:  #FF5400;
+    padding: 10px 30px;
+    margin-left: 30px;
+    border:0;
+    border-radius: 8px;
+    width: 250px;
+    font-weight: 400;
+
+}
+.pro-pro{
+    color:#5A5A5D;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.save{
+    width: 320px;
+    height: 120px;
+    color: #FFF;
+    background-color: #FF5400;
+    border-radius: 16px;
+    transform: rotate(-20deg);
+    top: -100px;
+    left: 200px;
+
+}
+.save p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.save h2{
+    font-weight: 700;
+    font-size:2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer style */
+footer{
+    
+    width: 100%;
+    display: flex;
+    height: 500px;
+    margin-top: 20px;
+    
+
+
+}
+.btn-primary-pro{
+    background-color:  #FF5400;
+    color: #FFF;
+    padding: 17px 35px;
+    border-radius:8px ;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.footer{
+
+    
+    background-color:rgba(19, 19, 24, 0.05);
+    text-align: center;
+    align-items: center;
+    padding: 110px;
+}
+.logo{
+    align-items: center;
+    margin-top: 5px;
+}
+    
+
+.footer h2{
+ margin:  0 auto;
+}
+.social{
+    justify-content: space-around;
+    font-size: 2rem;
+}
+hr{
+    color: #5A5A5D;
+    height: 0.5px;
+    
+   
+}
+.pranto{
+    color: #5A5A5D;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top:110px ;
+}
+@media screen and (max-width:600px){
+    body{
+        width: 100%;   
+        margin: 0 auto;
+    }
+    nav ul{
+        display: block;
+    }
+    .nav-header{
+        flex-direction: column;
+    }
+    .section-two {
+       flex-direction: column; 
+    }
+    .sound-box{
+        flex-direction: column;
+    }
+    .save h2{
+        flex-direction: column;
+    }
+    .pera-chil{
+        flex-direction: column;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .box-title-one{
+        display: block;
+    }
+}
